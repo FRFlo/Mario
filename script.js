@@ -1,5 +1,3 @@
-var loader = document.getElementById('loading');
-  
 window.addEventListener('load', function() {
-  loader.style.display = 'none';
+    document.getElementById('loading').style.display = 'none';
 })
