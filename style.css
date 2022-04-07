@@ -3,7 +3,7 @@ html, body {
   width: 100%;
   overflow: hidden;
   margin: 0;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 html {
