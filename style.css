@@ -1,0 +1,19 @@
+html, body {
+  height: 100%;
+  width:100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+html {
+  cursor: url('resources/curseur.cur'), auto;
+}
+
+#loading{
+  background: #D9A739 url('resources/loading.gif') no-repeat center center;
+  background-size: 10%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
