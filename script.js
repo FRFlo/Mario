@@ -1,5 +1,7 @@
 window.addEventListener('load', function() {
-    document.getElementById('loading').style.display = 'none';
+    if (!navigator.userAgentData.mobile) {
+        document.getElementById('loading').style.display = 'none';
+    }
 })
 
 window.onscroll = function(){
