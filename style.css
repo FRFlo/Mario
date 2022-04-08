@@ -11,10 +11,6 @@
   z-index: 100;
 }
 
-html {
-  cursor: url('resources/curseur.cur'), auto;
-}
-
 html, body {
   padding: 0px;
   margin: 0px;
@@ -23,6 +19,8 @@ html, body {
   color: #fff;
   background: rgb(0, 0, 0);
   scroll-behavior: smooth;
+  cursor: url('resources/curseur.cur'), auto;
+  cursor: url('resources/curseur.cur'), pointer;
 }
 
 #header {
