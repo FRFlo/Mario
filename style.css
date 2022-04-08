@@ -90,6 +90,10 @@ a, link {
   padding:2% 10%;
 }
 
+#mario div {
+  margin: 100px 0px;
+}
+
 #mario div h1 {
   font-size: 200%;
   background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
