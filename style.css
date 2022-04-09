@@ -3,6 +3,10 @@
   font-display: swap;
 } 
 
+:root {
+  --gradient: linear-gradient(to left, #FFFFFF 0%, #FFFFFF 100%);
+}
+
 #loading{
   background: #D9A739 url('resources/loading.webp') no-repeat center center;
   background-size: 10%;
@@ -42,7 +46,7 @@ a, link {
 
 #title {
   font-size: 40px;
-  background-image: linear-gradient(to left, #E52511 0%, #E52531 100%);
+  background-image: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -100,20 +104,20 @@ a, link {
   padding-top: 20vh;
 }
 
-#mario {
+#pages {
   width:80%;
   justify-content: center;
   text-align: center;
   padding:2% 10%;
 }
 
-#mario div {
+#pages div {
   margin: 100px 0px;
 }
 
-#mario div h1 {
+#pages div h1 {
   font-size: 200%;
-  background-image: linear-gradient(to left, #E52511 0%, #E52531 100%);
+  background-image: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -133,7 +137,7 @@ a, link {
 
 #footer a {
   font-size: 18px;
-  background-image: linear-gradient(to left, #E52511 0%, #E52531 100%);
+  background-image: var(--gradient);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
