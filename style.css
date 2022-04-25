@@ -129,6 +129,15 @@ a, link {
   animation: Gradient 20s ease infinite;
 }
 
+input {
+  border-radius: 15px;
+  font-size:18px;
+  font-family: Mario;
+  width:300px;
+  justify-content: center;
+  text-align: center;
+}
+
 #footer {
   width: 100%;
   padding: 10vh 0px;

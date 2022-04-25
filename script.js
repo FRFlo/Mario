@@ -3,3 +3,9 @@ window.addEventListener('load', function() {
         document.getElementById('loading').style.display = 'none';
     }
 })
+
+changetitle = document.getElementById('changetitle')
+
+changeit.addEventListener('change', function() {
+    document.title = changeit.value
+});
